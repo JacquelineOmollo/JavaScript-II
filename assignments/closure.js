@@ -42,4 +42,6 @@ const counterFactory = () => {
 
 const anotherCounterFactory = counterFactory();
 anotherCounterFactory.increment();
+anotherCounterFactory.increment();
+anotherCounterFactory.increment();
 anotherCounterFactory.decrement();
